@@ -5,6 +5,7 @@ counter.Click();
 counter.Click();
 Console.WriteLine(counter);
 counter.Reset();
+counter.Click();
 Console.WriteLine(counter);
 
 class ClickCounter(string name)
